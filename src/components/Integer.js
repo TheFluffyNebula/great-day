@@ -1,6 +1,6 @@
 const Integer = ({ text }) => {
   return (
-    <h3> {text} </h3>
+    <h3 className='center integer'> {text} </h3>
   )
 }
 

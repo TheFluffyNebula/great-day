@@ -1,12 +1,13 @@
 import PropTypes from 'prop-types'
 
 const Button = ({ color, text, onClick }) => {
-  return <button onClick={onClick}
-  style={{ backgroundColor: color }}
-  className='btn'
-  >
-    {text}
-  </button>
+  return <div className='center'>
+    <button onClick={onClick}
+      style={{ backgroundColor: color }}
+      className='btn'>
+      {text}
+    </button>
+  </div>
 }
 
 Button.defaultProps = {
@@ -20,3 +21,5 @@ Button.propTypes = {
 }
 
 export default Button
+// goal: make random color each time it's clicked
+// Math.floor(Math.random() * 10);

@@ -5,7 +5,7 @@ import Button from './components/Button'
 function App() {
   return (
     <div className="container">
-      <header>
+      <header class='center heading'>
         Great Day
       </header>
       {/* alternative to closing <>*/} 

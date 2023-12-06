@@ -12,12 +12,14 @@ code {
     monospace;
 }
 
-.header {
-  display: flex;
+.heading {
+  /* display: flex; */
   justify-content: space-between;
   align-items: center;
+  margin-left: 40%;
   margin-bottom: 20px;
-  color: blue
+  color: blue;
+  font-size: 100px;
 }
 
 .btn {
@@ -26,8 +28,21 @@ code {
   color: #fff;
   border: none;
   cursor: pointer;
+  width: 250px;
+  height: 100px;
 }
 
 .integer {
-  color: green;
+  /* color: rgb(0, 255, 0); */
+  color: black;
+  font-size: 200px;
+}
+
+/** https://www.w3schools.com/css/css_align.asp */
+.center {
+  margin: auto;
+  width: 50%;
+  /* border: 3px solid green; */
+  padding: 25px;
+  text-align: center;
 }
