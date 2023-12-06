@@ -1,6 +1,6 @@
-const Integer = ({ text }) => {
+const Integer = ({ value }) => {
   return (
-    <h3 className='center integer'> {text} </h3>
+    <h3 className='center integer'> {value} </h3>
   )
 }
 

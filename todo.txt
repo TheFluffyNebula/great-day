@@ -1,0 +1,8 @@
+definitely:
+onClick -> Integer += 1
+onClick -> Integer pulls value from MongoDB!!!
+
+for fun (maybe):
+Integer's font size scales logarithmically with its value.
+Clicking the button triggers a confetti effect.
+Gradient/GIF-like cool effects for the heading or integer text

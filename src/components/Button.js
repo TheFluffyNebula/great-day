@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types'
 
 const Button = ({ color, text, onClick }) => {
+  // pass in the function to call (it's just a parameter, the name can be different)
   return <div className='center'>
-    <button onClick={onClick}
+    <button onClick={onClick} 
       style={{ backgroundColor: color }}
       className='btn'>
       {text}
@@ -10,11 +11,11 @@ const Button = ({ color, text, onClick }) => {
   </div>
 }
 
-Button.defaultProps = {
-    color: 'steelblue'
-}
+// Button.defaultProps = { // not needed
+//     color: 'steelblue'
+// }
 
-Button.propTypes = {
+Button.propTypes = { // type checker for robust program
     text: PropTypes.string, 
     color: PropTypes.string,
     onClick: PropTypes.func,
