@@ -1,7 +1,8 @@
 {
-    "stuff": [
-        {
-            "value": 0
-        }
-    ]
+  "integers": [
+      {
+        "id": 1, 
+        "value": 0
+      }
+  ]
 }
