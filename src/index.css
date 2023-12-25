@@ -36,6 +36,7 @@ code {
   /* color: rgb(0, 255, 0); */
   color: black;
   font-size: 200px;
+  justify-content: center;
 }
 
 /** https://www.w3schools.com/css/css_align.asp */
